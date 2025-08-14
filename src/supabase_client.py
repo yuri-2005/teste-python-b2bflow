@@ -13,4 +13,4 @@ def buscar_contatos():
     data = supabase.table("contatos").select("*").execute()
     return data.data
 
-# Código para testar a função
+
