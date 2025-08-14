@@ -5,3 +5,4 @@ contatos = buscar_contatos()
 
 for contato in contatos:
     enviar_mensagem(contato["telefone"], contato["nome"])
+
